@@ -18,22 +18,21 @@ body {
 }
 
 h1{
-    font-size:calc(15vmin);
+    font-size:calc(15vmin - 2px);
     font-weight: 200;
+    font-family:  'Courier New','Fira Code', monospace, monospace;
     white-space: nowrap;
-    font-family: 'Courier New', monospace, monospace;
     margin-bottom: 0;
-
 }
 
 p{
     color: #ffa7c4;
-    font-size: calc(14px + 2vmin);  
+    font-size: calc(1px + 4vmin);  
     font-weight: 300;
+    font-family:  'Fira Code','Courier New', monospace, monospace;
     white-space: nowrap;
     margin: 0vw;
     padding: 0vw;
-    font-family: 'Courier New', monospace, monospace;
     text-align: center;
 }
 
