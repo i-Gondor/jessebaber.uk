@@ -80,7 +80,7 @@ i{
 {
     margin-top: 2vw;
     opacity:0;
-    transition: 1000ms opacity;
+    transition: 500ms opacity;
 }
 
 ::selection {
