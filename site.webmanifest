@@ -1,6 +1,7 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Jesse Baber | DevOps Engineering",
+    "short_name": "Jesse Baber DevOps",
+    "description": "Senior DevOps Engineer currently based in Berlin, Germany and Bristol, UK. Here you can find links to my digital life.",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
