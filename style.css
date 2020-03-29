@@ -1,3 +1,8 @@
+:root {
+    --main-bg-color: #FF81C0;
+    --main-txt-color: #FCF679;
+    --main-hl-color: #41FDFE;
+  }
 html{
     height: 100%;
     margin: 0;
@@ -8,15 +13,12 @@ html{
     width: 100vw;
 }
 body {
-    background-color: #fafafe;
-    color: #ffa7c4;
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    text-align: center;
     margin: 0;
     min-height: 100vh;
     padding: 0;
-    animation-name: spin;
-    animation-duration: 5000ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
 }
 h1{
     font-family: 'Courier New','Fira Code', monospace, monospace;
@@ -26,13 +28,12 @@ h1{
     white-space: nowrap;
 }
 p{
-    color: #ffa7c4;
+    color: var(--main-txt-color);
     font-family: 'Fira Code','Courier New', monospace, monospace;
     font-size: calc(1px + 4vmin);
     font-weight: 300;
     margin: 0vw;
     padding: 0vw;
-    text-align: center;
     white-space: nowrap;
 }
 a{
@@ -40,9 +41,7 @@ a{
     -ms-transition: color.5s ease;
     -o-transition: color.5s ease;
     -webkit-transition: color.5s ease;
-    color: #ffa7c4;
-    font-size: calc(14px + 3.5vmin);
-    font-weight: 200;
+    color: var(--main-txt-color);
     margin: 1vw;
     transition: color.5s ease;
     white-space: nowrap;
@@ -52,7 +51,7 @@ a:hover{
     -ms-transition: color.5s ease;
     -o-transition: color.5s ease;
     -webkit-transition: color.5s ease;
-    color: #e596b0;
+    color: var(--main-hl-color);
     transition: color.5s ease;
 }
 i{
@@ -68,17 +67,47 @@ i{
     padding: 0;
 }
 .social {
-    margin-top: 2vw;
+    font-size: calc(14px + 3.5vmin);
+    font-weight: 200;    margin-top: 2vw;
     opacity:0;
     transition: 500ms opacity;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Fira Code','Courier New', monospace, monospace;
+  font-size: calc(1px + 1vmin) !important;
+  margin: 1vw;
+  padding: 0vw;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.spinmerightround{
+    animation-name: spin;
+    animation-duration: 7500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+.paused{
+    
+    animation-name: none;
+    -webkit-animation-play-state: paused !important;
+    -moz-animation-play-state: paused !important;
+    -o-animation-play-state: paused !important; 
+    animation-play-state: paused !important;
+}
+.hide{
+    display: none !important
+}
 ::selection {
-    background: #ffa7c4;
-    color: #fafafe;
+    background: var(--main-hl-color);
+    color: var(--main-bg-color);
 }
 ::-moz-selection {
-    background: #ffa7c4;
-    color: #fafafe;
+    background: var(--main-hl-color);
+    color: var(--main-bg-color);
 }
 @keyframes spin {
     from {
