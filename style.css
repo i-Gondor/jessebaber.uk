@@ -78,7 +78,7 @@ i{
   bottom: 0;
   width: 100%;
   font-family: 'Fira Code','Courier New', monospace, monospace;
-  font-size: calc(1px + 1vmin) !important;
+  font-size: calc(8px + 1vmin) !important;
   margin: 1vw;
   padding: 0vw;
   white-space: nowrap;
