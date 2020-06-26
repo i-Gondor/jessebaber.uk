@@ -33,22 +33,22 @@ p{
     white-space: wrap;
 }
 a{
-    -moz-transition: color.5s ease;
-    -ms-transition: color.5s ease;
-    -o-transition: color.5s ease;
-    -webkit-transition: color.5s ease;
+    -moz-transition: color.3s ease;
+    -ms-transition: color.3s ease;
+    -o-transition: color.3s ease;
+    -webkit-transition: color.3s ease;
     color: var(--main-txt-color);
-    transition: color.5s ease;
+    transition: color.3s ease;
     white-space: nowrap;
     text-decoration: none;
 }
 a:hover{
-    -moz-transition: color.5s ease;
-    -ms-transition: color.5s ease;
-    -o-transition: color.5s ease;
-    -webkit-transition: color.5s ease;
+    -moz-transition: color.3s ease;
+    -ms-transition: color.3s ease;
+    -o-transition: color.3s ease;
+    -webkit-transition: color.3s ease;
     color: var(--main-hl-color);
-    transition: color.5s ease;
+    transition: color.3s ease;
 }
 i{
     list-style: none;
@@ -62,38 +62,10 @@ i{
     padding: 0;
 }
 .social {
-    font-size:calc(4vmax);
+    font-size:calc(5.5vmax);
     font-weight: 200;
     opacity:0;
     transition: 500ms opacity;
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  font-family: 'Fira Code','Courier New', monospace, monospace;
-  font-size: calc(8px + 1vmin) !important;
-  padding: 0vw;
-  white-space: nowrap;
-  cursor: pointer;
-}
-.spinmerightround{
-    animation-name: spin;
-    animation-duration: 7500ms;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-}
-.paused{
-    
-    animation-name: none;
-    -webkit-animation-play-state: paused !important;
-    -moz-animation-play-state: paused !important;
-    -o-animation-play-state: paused !important; 
-    animation-play-state: paused !important;
-}
-.hide{
-    display: none !important
 }
 ::selection {
     background: var(--main-hl-color);
