@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #FF81C0;
-    --main-txt-color: #41FDFE;
-    --main-hl-color: #FCF679;
+    --main-txt-color: #FCF679;
+    --main-hl-color: #41FDFE;
   }
 html{
     overflow: hidden;
