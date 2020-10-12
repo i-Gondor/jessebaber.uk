@@ -65,7 +65,7 @@ i{
     font-size:calc(5.5vmax);
     font-weight: 200;
     opacity:0;
-    transition: 500ms opacity;
+    transition: 1000ms opacity;
 }
 ::selection {
     background: var(--main-hl-color);
